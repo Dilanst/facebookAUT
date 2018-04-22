@@ -11,6 +11,12 @@ import org.openqa.selenium.support.ui.Select;
 import co.facebook.ral.DTO.DataDTO;
 import co.facebook.utils.Configuracion;
 
+/**
+ * 
+ * @author dilan
+ *
+ */
+
 public class PerfilView {
 
 	WebDriver driver;

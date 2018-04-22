@@ -41,7 +41,7 @@ public class LoginView {
 	
 	public  LoginView searchFlight(DataDTO data){
 		emailInput.sendKeys("dlsteeven@hotmail.com");
-		passInput.sendKeys("Annast24");
+		passInput.sendKeys("no mires mi contraseña :$");
 		loginBtn.click();
 		try {
 			Thread.sleep(2000);

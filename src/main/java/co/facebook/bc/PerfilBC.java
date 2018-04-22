@@ -22,7 +22,7 @@ import co.facebook.view.common.LoginView;
  * @category business component
  * **/
 
-public class FlightBC {
+public class PerfilBC {
 
 	/**
 	 * <pre>

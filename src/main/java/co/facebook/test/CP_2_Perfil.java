@@ -6,7 +6,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import co.facebook.bc.FlightBC;
+import co.facebook.bc.PerfilBC;
 import co.facebook.ral.DataRAL;
 import co.facebook.ral.DTO.DataDTO;
 import co.facebook.utils.Configuracion;
@@ -63,7 +63,7 @@ public class CP_2_Perfil {
 		setup();
 		for (DataDTO dataDTO : dataPool) {
 			/*Enviar cada objeto que contiene el escenario*/
-			  FlightBC.SelectFlight(dataDTO);
+			  PerfilBC.SelectFlight(dataDTO);
 		}
 
 	}
