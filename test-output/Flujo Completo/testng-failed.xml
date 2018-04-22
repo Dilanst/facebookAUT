@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flujo Completo]" verbose="10">
+  <test name="Criterio De Aceptacion 1(failed)">
+    <classes>
+      <class name="co.latam.booking.test.CP_2_SelectFlight">
+        <methods>
+          <include name="selectFlightTest"/>
+          <include name="stopAllDrivers"/>
+        </methods>
+      </class> <!-- co.latam.booking.test.CP_2_SelectFlight -->
+      <class name="co.latam.booking.test.CP_1_SearchFlight">
+        <methods>
+          <include name="searchFlightTest"/>
+          <include name="stopAllDrivers"/>
+        </methods>
+      </class> <!-- co.latam.booking.test.CP_1_SearchFlight -->
+    </classes>
+  </test> <!-- Criterio De Aceptacion 1(failed) -->
+</suite> <!-- Failed suite [Flujo Completo] -->

@@ -1,0 +1,17 @@
+<suite name="Flujo Completo" verbose="2">
+  
+  <test name="Criterio De Aceptacion 1" preserve-order="true">
+    <classes>
+      <class name="co.facebook.test.CP_1_Login">
+        <methods>
+          <include name="loginTest" />
+        </methods>
+      </class>
+       <class name="co.facebook.test.CP_2_Perfil">
+        <methods>
+          <include name="perfilTest" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
