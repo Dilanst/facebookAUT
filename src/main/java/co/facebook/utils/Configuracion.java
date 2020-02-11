@@ -21,7 +21,7 @@ public class Configuracion {
 			navegador =  DesiredCapabilities.chrome();
 			navegador.setCapability(ChromeOptions.CAPABILITY, options);
 			// crea una nueva instancia
-			 System.setProperty("webdriver.chrome.driver", "chromedriver");
+			 System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			 driver = WebDriverPool.DEFAULT.getDriver(navegador);
 			 driver.get(PATH.URL);
 			 break;
